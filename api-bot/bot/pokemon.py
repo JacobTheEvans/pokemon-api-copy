@@ -38,6 +38,8 @@ def format_data(raw_data, client_id):
     wanted_data["weight"] = raw_data["weight"]
     wanted_data["height"] = raw_data["height"]
     wanted_data["base_experience"] = raw_data["base_experience"]
+    wanted_data["id"] = raw_data["id"]
+
 
     wanted_data["sprites"] = {}
 
