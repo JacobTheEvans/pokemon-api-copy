@@ -3,6 +3,9 @@ const {Schema} = mongoose;
 
 const pokemonSchema = new Schema({
   id: Number,
+  _id: {
+    select: false
+  },
   stats: [
     {
       name: String,
